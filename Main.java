@@ -1,4 +1,5 @@
 public class Main {
+    // Test case for merge sort algorithm.
     public static void main(String[]args){
         
      int[] arr = {4, 1, 8, 3, 5};
