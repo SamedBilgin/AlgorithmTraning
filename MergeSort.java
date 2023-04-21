@@ -1,12 +1,14 @@
 public class MergeSort {
-
+     // Here we are checking the array.If its empty function returns. 
     public void sort(int[] arr) {
         if (arr == null || arr.length == 0) {
             return;
         }
         mergeSort(arr, 0, arr.length - 1);
     }
-
+     
+    // mergeSort firstly divides the array into atomic parts then start merging them with merge method with correct order.
+    
     private void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
             int mid = (left + right) / 2;
